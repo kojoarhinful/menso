@@ -1,0 +1,132 @@
+
+
+/* Dark Mode Variables */
+:root {
+  --dark-background: #121212;
+  --dark-background-alt: #1e1e1e;
+  --dark-text: #e0e0e0;
+  --dark-text-light: #a0a0a0;
+  --dark-text-lighter: #707070;
+  --dark-border: #2a2a2a;
+  --dark-primary: #90caf9;
+  --dark-primary-dark: #64b5f6;
+  --dark-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --dark-shadow-md: 0 4px 6px rgba(0, 0, 0, 0.3);
+  --dark-shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Dark Mode Class */
+.dark-mode {
+  color: var(--dark-text);
+  background-color: var(--dark-background);
+}
+
+/* Header */
+.dark-mode .site-header {
+  background-color: var(--dark-background);
+  box-shadow: var(--dark-shadow-sm);
+}
+
+.dark-mode .site-title {
+  color: var(--dark-text);
+}
+
+.dark-mode .main-nav a {
+  color: var(--dark-text);
+}
+
+/* Links */
+.dark-mode a {
+  color: var(--dark-primary);
+}
+
+.dark-mode a:hover {
+  color: var(--dark-primary-dark);
+}
+
+/* Buttons */
+.dark-mode .button {
+  background-color: var(--dark-background-alt);
+  color: var(--dark-text);
+}
+
+.dark-mode .button.primary {
+  background-color: var(--dark-primary);
+  color: var(--dark-background);
+}
+
+.dark-mode .button.primary:hover {
+  background-color: var(--dark-primary-dark);
+}
+
+/* Cards and Sections */
+.dark-mode .post-card {
+  border-bottom-color: var(--dark-border);
+}
+
+.dark-mode .post-title a {
+  color: var(--dark-text);
+}
+
+.dark-mode .post-title a:hover {
+  color: var(--dark-primary);
+}
+
+.dark-mode .post-date,
+.dark-mode .post-meta,
+.dark-mode .author-bio {
+  color: var(--dark-text-light);
+}
+
+.dark-mode .post-category,
+.dark-mode .tag,
+.dark-mode pre,
+.dark-mode code {
+  background-color: var(--dark-background-alt);
+}
+
+.dark-mode .post-footer,
+.dark-mode .post-navigation {
+  border-color: var(--dark-border);
+}
+
+/* Forms */
+.dark-mode input,
+.dark-mode textarea,
+.dark-mode select {
+  background-color: var(--dark-background-alt);
+  border-color: var(--dark-border);
+  color: var(--dark-text);
+}
+
+.dark-mode input:focus,
+.dark-mode textarea:focus,
+.dark-mode select:focus {
+  border-color: var(--dark-primary);
+}
+
+/* Footer */
+.dark-mode .site-footer {
+  background-color: var(--dark-background-alt);
+}
+
+.dark-mode .footer-bottom {
+  border-color: var(--dark-border);
+  color: var(--dark-text-light);
+}
+
+/* Features and Team */
+.dark-mode .feature-list li,
+.dark-mode .team-member {
+  background-color: var(--dark-background-alt);
+  box-shadow: var(--dark-shadow-sm);
+}
+
+.dark-mode .feature-list li:hover,
+.dark-mode .team-member:hover {
+  box-shadow: var(--dark-shadow-md);
+}
+
+.dark-mode .member-role {
+  color: var(--dark-text-light);
+}
